@@ -1,0 +1,29 @@
+
+body {
+    background-color: lightseagreen;
+}
+
+.konteiner {
+    background-color: ivory;
+    min-width: 900px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.kast {
+    width: 10%;
+    height: 50px;
+    background-color: orange;
+    border-width: 1px;
+    border-style: solid;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.laev {
+    background-color: lightslategray;
+}
+

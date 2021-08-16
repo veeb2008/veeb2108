@@ -17,9 +17,36 @@ body {
     background-color: orange;
     border-width: 1px;
     border-style: solid;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pilt1 {
     background-image: url("./pildid/arnold_bocklin_132_by_appetitive_soul_de4aw16.jpg");
+}
+
+.pilt2 {
+    background-image: url("./pildid/flat_world_by_kismuki_de1zfo6.jpg");
+}
+
+.pilt3 {
+    background-image: url("./pildid/golden_hours_at_yerevan_by_rikitza_de3loic.jpg");
+}
+.pilt4 {
+    background-image: url("./pildid/instinct_to_follow_by_abdelrahman_de44edy.jpg");
+}
+.pilt5 {
+    background-image: url("./pildid/negotiations_by_abdelrahman_de4bjwk.jpg");
+}
+.pilt6 {
+    background-image: url("./pildid/neowise___4k_by_abdelrahman_de1lvum.jpg");
+}
+.pilt7 {
+    background-image: url("./pildid/real_life_by_ilcsab_dcudylw.jpg");
+}
+.pilt8 {
+    background-image: url("./pildid/sunrise_at_the_well_derrick_by_monkeystyle3000_de41rqg.jpg");
+}
+.pilt9 {
+    background-image: url("./pildid/the_great_empire_by_nfatin_de4aqb4.jpg");
 }
