@@ -1,0 +1,25 @@
+
+body {
+    background-color: lightseagreen;
+}
+
+.konteiner {
+    background-color: ivory;
+    min-width: 900px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kast {
+    width: 32%;
+    height: 300px;
+    background-color: orange;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+.pilt1 {
+    background-image: url("./pildid/arnold_bocklin_132_by_appetitive_soul_de4aw16.jpg");
+}
