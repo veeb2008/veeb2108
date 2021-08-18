@@ -13,6 +13,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 main {
     display: flex;
     padding: 0 15px;

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pais {
+	width: 100%;
+	height: 400px;
+	background-image: url('./pildid/the_puddle_by_refiend_de4pqwn.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pais h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 3rem;
+	color: white;
+	line-height: 400px;
+}
+
+.kaardid {
+	width: 100%;
+	background-color: white;
+    display: flex;
+}
+
+.kaardid > div {
+	width: 33%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	padding-bottom: 10px;
+}
+
+.kaart-pais {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+}
+
+.taust-galerii {
+	background-image: url('./pildid/galerri-pilt.png');
+}
+
+.kaart-tekst {
+	padding: 20px;
+}
+
+.kaart-jalus a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 100px;
+	padding: 15px;
+	background-color: lightskyblue;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	max-width: 130px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.kaart-jalus:hover a {
+	background-color: darkblue;
+}
