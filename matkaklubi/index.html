@@ -11,18 +11,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-<style>
-    body {
-        font-family: 'Montserrat', sans-serif;
-    }
-</style>
+<link rel="stylesheet" href="matkaklubi.css">
 </head>
 <body>
 
 <div class="paissektsioon">
     <div class="container">
-        <div class="row pais">
-            
+        <div class="row paiserida">
+            <div class="col-8 col-md-4 pais-logoala">
+                <div class="pais-logo"></div>
+                <div class="pais-nimi">puhas higi</div>
+            </div>
+            <div class="col-4 d-md-none">
+                <button type="button" class="btn btn-outline-secondary">--</button>
+            </div>
+            <div class="col-md-8 pais-menyy">
+                <ul class="d-none d-md-flex flex-column flex-md-row">
+                    <li><a href="./index.html">Esileht</a></li>
+                    <li><a href="./uudised.html">Uudised</a></li>
+                    <li><a href="./kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
@@ -30,26 +39,6 @@
 <div class="jumbotron text-center">
   <h1>My First Bootstrap Page</h1>
   <p>Resize this responsive page to see the effect!</p> 
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6 col-lg-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
 </div>
 
 </body>
