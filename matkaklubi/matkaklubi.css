@@ -62,3 +62,52 @@ body {
 .pais-menyy a {
     color: #0B0B0B;
 }
+
+.pealdis {
+    display: flex;
+    color: #0B0B0B;
+    text-transform: uppercase;
+}
+
+.pealdis-pealkirjad {
+    padding-top: 231px;
+}
+
+.pealdis h1 {
+    font-size: 74.39px;
+    font-weight: 800;
+}
+.pealdis h2 {
+    font-size: 39.57px;
+    font-weight: 800;
+}
+.pealdis h3 {
+    font-size: 20.83px;
+    font-weight: 800;
+}
+
+.pealdis-pilt-ymbris {
+    display: none;
+}
+
+.pealdis-pilt {
+    background-image: url('./pildid/matkaja.png');
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .pealdis-pilt-ymbris {
+        display: block;
+        width: 50%;
+    } 
+}
+
+@media screen and (min-width: 1400px) {
+    .paissektsioon {
+    background: transparent url('./pildid/Hills@2x.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    }   
+    
+}
