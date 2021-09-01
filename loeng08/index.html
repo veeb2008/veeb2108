@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #vastus {
+            margin-top: 200px;
+        }
+        .oigeVastus {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Harjutused While tsükliga</h1>
+    <h2>Arva ära minu lemmikpuuvili</h2>
+    <label for="puuvili">Sisesta puuvili</label>
+    <input type="text" id="puuvili" name="puuvili" onkeypress="enterVajutati(event)" >
+    <button onclick="arvaPuuvili()" >Kontrolli</button>
+    <div id="vastus"></div>
+    <script src="harjutus.js"></script>
+</body>
+</html>

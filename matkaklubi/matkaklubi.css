@@ -97,6 +97,21 @@ body {
     min-height: 200px;
 }
 
+
+.nupp-paises {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2.25px;
+    font-size: 12px;
+    line-height: 46px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+}
 @media screen and (min-width: 768px) {
     .pealdis-pilt-ymbris {
         display: block;
