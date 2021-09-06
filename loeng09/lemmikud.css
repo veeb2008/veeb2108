@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.konteiner {
+    width: 70%;
+    max-width: 700px;
+    min-width: 300px;
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+}
+
+.puuvili {
+    margin-bottom: 15px;
+}

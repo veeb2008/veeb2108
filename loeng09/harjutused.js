@@ -19,11 +19,29 @@ let porgand = {
     liik: "juurvili"
 }
 
+let riis = {
+    nimi: "riis",
+    varv: "valge",
+    kuju: "tera",
+    liik: "teravili"
+}
+
+let viinamari = {
+    nimi: "viinamari",
+    varv: "roheline",
+    kuju: "ümmargune",
+    liik: "mari"
+}
+
 function trykiLemmik(lemmik) {
     document.getElementById('sisu').innerHTML += `
-    <div>
-        Minu lemmik ${lemmik.liik} on ${lemmik.nimi} ja see on 
-        ${lemmik.varv} ning ${lemmik.kuju}
+    <div class="puuvili">
+        <div>
+            Minu lemmik <strong>${lemmik.liik}</strong> on <strong>${lemmik.nimi}</strong>.
+        </div>
+        <div>
+            See on ${lemmik.varv} ja ${lemmik.kuju}.
+        </div>
     </div>
     `
 }
@@ -32,7 +50,7 @@ function trykiLemmik(lemmik) {
 //trykiLemmik(banaan)
 //trykiLemmik(porgand)
 
-let lemmikud = [ apelsin, banaan, porgand ]
+let lemmikud = [ apelsin, banaan, porgand, riis, viinamari ]
 
 for (let i = 0; i < lemmikud.length; i++) {
     let objekt = lemmikud[i]
