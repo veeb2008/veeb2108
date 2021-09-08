@@ -2,7 +2,7 @@
 function looMatkaHtml(matk) {
     return `
     <div class="col-md-4 card">
-        <img class="card-img-top" src="./pildid/matkaja.png" alt="">
+        <img class="card-img-top" src="${matk.pildiUrl}" alt="">
         <div class="card-body">
             <h4 class="card-title" >${matk.nimetus}</h4>
             <p>
@@ -16,15 +16,18 @@ function looMatkaHtml(matk) {
 
 const matk1 = {
     nimetus: "Kevadmatk Kõrvemaal",
-    kirjeldus: "Lähme ja kõnnime kolm päeva looduses"
+    kirjeldus: "Lähme ja kõnnime kolm päeva looduses",
+    pildiUrl: './pildid/matkaja.png'
 }
 const matk2 = {
     nimetus: "Rattamatk Jõgevamaal",
-    kirjeldus: "Väntame iga päev 30 kilomeetrit"
+    kirjeldus: "Väntame iga päev 30 kilomeetrit",
+    pildiUrl: './pildid/rattamatk.jpg'
 }
 const matk3 = {
-    nimetus: "Kepikõnnimatk ümber Pühajärve",
-    kirjeldus: "14 kilomeetrine jalutuskäik"
+    nimetus: "Kepikõnnimatk ümber Tartu",
+    kirjeldus: "14 kilomeetrine jalutuskäik",
+    pildiUrl: './pildid/matk_tartus1.jpg'
 }
 
 const matkad = [matk1, matk2, matk3]
