@@ -7,4 +7,5 @@ function saadaVorm() {
     }
     console.log('Vormi andmed')
     console.log(andmed)
+    return false
 }
